@@ -56,3 +56,27 @@ Sample request payload
 }
 ]
 ```
+Response payload
+```
+{
+    "rewardDetails": [
+        {
+            "customer": {
+                "id": "testing-user-1",
+                "name": null
+            },
+            "rewards": [
+                {
+                    "month": "OCTOBER",
+                    "points": 90
+                },
+                {
+                    "month": "NOVEMBER",
+                    "points": 180
+                }
+            ],
+            "totalPoints": 270
+        }
+    ]
+}
+```
