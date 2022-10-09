@@ -34,3 +34,25 @@ cases).
    - Integration tests should not only check if application starts but also call REST endpoints 
 and check at least if http status code is correct
    - Use of appropriate logging levels, framework
+
+### How to run
+Sample request payload
+```
+[
+{
+"amount": 120,
+"dateTime": "2018-11-21T11:13:13",
+"customerId": "testing-user-1"
+},
+{
+"amount": 120,
+"dateTime": "2018-11-22T11:13:13",
+"customerId": "testing-user-1"
+},
+{
+"amount": 120,
+"dateTime": "2018-10-21T11:13:13",
+"customerId": "testing-user-1"
+}
+]
+```
